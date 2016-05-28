@@ -1,0 +1,171 @@
+body{
+	background-color: #969696;
+	padding-left:250px;
+	padding-right:250px;
+}
+/*MENU*/
+#testa{
+	background-color:#1E90FF;
+	
+}
+#header{
+	font-family: calibri;
+	background-color: #bbb;
+}
+/*NAVIGATION BAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: blue;
+}
+
+.active:hover{
+	background-color: #1E90FF;	
+}
+
+
+.about{
+	color: blue;
+}
+
+
+/*CITAZIONE*/
+#citazione{
+	background-color: grey;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+p{
+	font-family: calibri;
+	color: white;
+	font-size: 27;
+}
+/*GALLERIA HOME*/
+#container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	background-color:grey;
+}
+ 
+#wrapper1 {
+    border: 1px solid #ccc;
+    height: 320px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    width: 250px;
+}
+.slider1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 320px;
+    width: 1920px; /* larghezza totale */
+}
+.slider1 li {
+    float: left;
+    height: 320px;
+    width: 480px;
+}
+.slider1 img {
+    display: block;
+}
+ 
+/* link di navigazione */
+.navigation1 {
+    overflow: hidden;
+    width: 100%;
+ 
+}
+.navigation1 a {
+    background: #ccc;
+    color: #333;
+    font: bold 14px arial, helvetica, sans-serif;
+    display: block;
+    float: left;
+    padding: 4px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.navigation1 a:active {
+    background-color: #999; 
+}
+ 
+.js-shown {
+    display: none !important;
+}
+
+#wrapper2 {
+    border: 1px solid #ccc;
+    height: 320px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+}
+.slider2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 320px;
+    width: 1920px; /* larghezza totale */
+}
+.slider2 li {
+    float: left;
+    height: 320px;
+    width: 480px;
+}
+.slider2 img {
+    display: block;
+}
+ 
+/* link di navigazione */
+.navigation2 {
+    overflow: hidden;
+    width: 100%;
+ 
+}
+.navigation2 a {
+    background: #ccc;
+    color: #333;
+    font: bold 14px arial, helvetica, sans-serif;
+    display: block;
+    float: left;
+    padding: 4px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.navigation2 a:active {
+    background-color: #999; 
+}
+ 
+.js-shown {
+    display: none !important;
+}
